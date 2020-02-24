@@ -39,4 +39,4 @@ var object={
 console.log(object.true);
 
 // 10. Can you define a key of `let or var` in any object? Reason.
- No , we cannot define or declare primitive value in non-primitive value, key does not contain any spaces .
+ Yes,key can be any String;

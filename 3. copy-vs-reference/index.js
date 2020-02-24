@@ -73,8 +73,8 @@ console.log(b); 5
 var a = {};
 var b = a;
 a.a = 1;
-console.log(a); {a:1}
-console.log(b); {a:1}
+console.log(a); // {a:1}
+console.log(b); // {a:1}
 
 // What's the output.
 var a = [];
