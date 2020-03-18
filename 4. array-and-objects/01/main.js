@@ -31,3 +31,4 @@ var myPenguin={
     for (let keys in myPenguin.favoriteFoods){
     console.log(myPenguin.favoriteFoods[keys]);
     }
+    
