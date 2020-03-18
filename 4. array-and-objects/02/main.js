@@ -24,6 +24,7 @@ var fred = {
   sayHello: function () {
     console.log("Hi there!");
   }
+  
 };
 
     //1.Create a new variable named penguins and set it equal to an array that lists these three penguins! (Hint: remember you can put variable names inside an array, not just hard-coded values! And remember that variable names don't have quotes around them.)

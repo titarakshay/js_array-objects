@@ -117,12 +117,12 @@ let user3 = {
   brothers: ["John", "Bran", "Robb"]
 };
 // Output of the below code and why?
-user.house === user2.house; // output: true ( house key's value is also same)
-user.house == user2.house; // output: true   (both are object and house key value is also same)
-user.brothers === user2.brothers; // output: true ( brothers array reference is also same)
-user.brothers == user2.brothers; // output: true  (both are object and brothers array reference is also same)
-user.name == user2.name; // output: true ( name key's value is  same)
-user.name === user2.name; // output: true (both are object and name key value is also same)
+user.house === user2.house; // output:  true ( house key's value is also same)
+user.house == user2.house; // output:  true   (both are object and house key value is also same)
+user.brothers === user2.brothers; // output:  true ( brothers array reference is also same)
+user.brothers == user2.brothers; // output:  true  (both are object and brothers array reference is also same)
+user.name == user2.name; // output:  true ( name key's value is  same)
+user.name === user2.name; // output:  true (both are object and name key value is also same)
 user.brothers == user3.brothers; // output: false (both are object but brother array refernce are different)
 user.brothers === user3.brothers; // output: false (both are object but brother array refernce are different)
 user.house === user2.house; // output  true (both are object and value of house key's also same)
